@@ -18,6 +18,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     # for byebug prompt
     # debugger
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   # POST
