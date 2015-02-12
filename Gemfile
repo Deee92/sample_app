@@ -29,6 +29,13 @@ gem 'bcrypt', '3.1.7'
 # Seed the database
 gem 'faker', '1.4.2'
 
+# Image uploading
+gem 'carrierwave', '0.10.0'
+# Image resizing
+gem 'mini_magick', '3.8.0'
+# Saving images to cloud
+gem 'fog', '1.23.0'
+
 # Pagination
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
